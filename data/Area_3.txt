@@ -1,0 +1,10 @@
+City	x	y	TB/s
+Poznań	54	68	251
+Zielona Góra	39	60	121
+Leszno	51	58	84
+Kalisz	65	58	207
+Legnica	45	47	176
+Wrocław	54	45	133
+Jelenia Góra	40	42	167
+Wałbrzych	46	39	129
+Opole	67	37	-

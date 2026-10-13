@@ -1,0 +1,11 @@
+City	x	y	TB/s
+Kielce	98	42	-
+Częstochowa	79	40	278
+Bytom	76	31	163
+Gliwice	73	30	105
+Sosnowiec	80	29	143
+Kraków	89	25	331
+Bielsko	79	20	276
+Katowice	78	28	263
+Jastrzębie-Zdrój	74	23	137
+Wodzisław Śląski	71	23	119

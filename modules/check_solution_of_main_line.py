@@ -11,6 +11,7 @@ The modelling objective is to minimize total main-line length.
 Checks the exported route, not optimality or model edges absent from the file.
 Bidirectional communication does not require two copies of a connection.
 Uses only the Python standard library; no Gurobi installation is needed.
+Defaults to main_line_sol.csv in the project root, regardless of working directory.
 """
 
 import argparse
@@ -19,6 +20,8 @@ import csv
 import math
 from pathlib import Path
 import unicodedata
+
+DEFAULT_SOLUTION_PATH = Path(__file__).resolve().parent.parent / "main_line_sol.csv"
 
 
 # Appendix 2: (area, x, y).
@@ -138,7 +141,7 @@ def read_solution(file_path):
     return sorted(rows, key=lambda row: row["order"])
 
 
-def check_solution(file_path, tolerance=0.01):
+def check_solution(file_path=DEFAULT_SOLUTION_PATH, tolerance=0.01):
     """Return valid, individual checks, route and recalculated length totals."""
     result = {"valid": False, "checks": [], "route": [], "lengths": {}}
 
@@ -233,3 +236,4 @@ def check_solution(file_path, tolerance=0.01):
 
     result["valid"] = all(check["passed"] for check in result["checks"])
     print_report()
+    return result

@@ -1,6 +1,9 @@
 import csv
+from pathlib import Path
 import numpy as np
 import pandas as pd
+
+DEFAULT_MAIN_LINE_PATH = Path(__file__).resolve().parent.parent / "main_line_sol.csv"
 
 def create_distance_matrix(df):
     coordinates = df[['x', 'y']].to_numpy(dtype=float)
@@ -25,7 +28,7 @@ def create_distance_matrix(df):
 
 
 
-def write_solution(route, cable_length, fixed_connections, filename="solution.csv"):
+def write_solution(route, cable_length, fixed_connections, filename=DEFAULT_MAIN_LINE_PATH):
     with open(filename, "w", encoding="utf-8", newline="") as file:
         writer = csv.writer(file, delimiter="\t")
         writer.writerow(["Order", "City", "Within-area cable length", "Fixed connections length", "Total cable length"])

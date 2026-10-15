@@ -1,0 +1,55 @@
+Constraint,Dual,Slack,RHS,Type
+"Cable_capacity[Bytom,Kielce]",0.0,37.0,200.0,Cable_capacity
+"Cable_capacity[Bytom,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Bytom,Warszawa]",0.0,178.33373789868617,178.33373789868617,Cable_capacity
+"Cable_capacity[Częstochowa,Kielce]",-12881.428472946474,0.0,200.0,Cable_capacity
+"Cable_capacity[Częstochowa,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Częstochowa,Warszawa]",0.0,122.0,200.0,Cable_capacity
+"Cable_capacity[Katowice,Kielce]",-17970.12148145462,0.0,200.0,Cable_capacity
+"Cable_capacity[Katowice,Opole]",0.0,138.89003127374832,200.0,Cable_capacity
+"Cable_capacity[Katowice,Warszawa]",0.0,167.46388872593022,169.35391999967854,Cable_capacity
+"Cable_capacity[Konin,Kielce]",0.0,164.0,200.0,Cable_capacity
+"Cable_capacity[Konin,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Konin,Warszawa]",-5849.783075452047,0.0,200.0,Cable_capacity
+"Cable_capacity[Poznań,Kielce]",0.0,17.886077462913804,118.7036373251011,Cable_capacity
+"Cable_capacity[Poznań,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Poznań,Warszawa]",-5673.260857397858,0.0,150.1824401378127,Cable_capacity
+"Cable_capacity[Sieradz,Kielce]",0.0,140.86424341027055,200.0,Cable_capacity
+"Cable_capacity[Sieradz,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Sieradz,Warszawa]",0.0,81.13575658972945,200.0,Cable_capacity
+"Cable_capacity[Sosnowiec,Kielce]",0.0,57.0,200.0,Cable_capacity
+"Cable_capacity[Sosnowiec,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Sosnowiec,Warszawa]",0.0,181.06556338255177,181.06556338255177,Cable_capacity
+"Cable_capacity[Wałbrzych,Kielce]",0.0,112.55405003183053,112.55405003183053,Cable_capacity
+"Cable_capacity[Wałbrzych,Opole]",0.0,71.0,200.0,Cable_capacity
+"Cable_capacity[Wałbrzych,Warszawa]",0.0,63.25096506176841,63.25096506176841,Cable_capacity
+"Cable_capacity[Wodzisław Śląski,Kielce]",0.0,81.0,200.0,Cable_capacity
+"Cable_capacity[Wodzisław Śląski,Opole]",0.0,200.0,200.0,Cable_capacity
+"Cable_capacity[Wodzisław Śląski,Warszawa]",0.0,119.13421607240146,119.13421607240146,Cable_capacity
+"Cable_capacity[Wrocław,Kielce]",0.0,162.72096458007474,162.72096458007474,Cable_capacity
+"Cable_capacity[Wrocław,Opole]",0.0,67.0,200.0,Cable_capacity
+"Cable_capacity[Wrocław,Warszawa]",0.0,124.65999986319315,124.65999986319315,Cable_capacity
+"Cable_capacity[Zielona Góra,Kielce]",-2721.222120192455,0.0,52.24668354808326,Cable_capacity
+"Cable_capacity[Zielona Góra,Opole]",0.0,186.50996872625166,200.0,Cable_capacity
+"Cable_capacity[Zielona Góra,Warszawa]",-3864.582968099312,0.0,55.263285178168395,Cable_capacity
+"Cable_capacity[Łódź,Kielce]",0.0,73.19999999999999,200.0,Cable_capacity
+"Cable_capacity[Łódź,Opole]",0.0,136.60000000000002,200.0,Cable_capacity
+"Cable_capacity[Łódź,Warszawa]",0.0,73.19999999999999,200.0,Cable_capacity
+Demand[Bytom],25260.001539637433,0.0,163.0,Demand
+Demand[Częstochowa],32649.655434629018,0.0,278.0,Demand
+Demand[Katowice],43046.486500061765,0.0,263.0,Demand
+Demand[Konin],37865.40426261629,0.0,236.0,Demand
+Demand[Poznań],51770.98314386229,0.0,251.0,Demand
+Demand[Sieradz],29732.137494637012,0.0,178.0,Demand
+Demand[Sosnowiec],22866.857098314264,0.0,143.0,Demand
+Demand[Wałbrzych],49928.83920623886,0.0,129.0,Demand
+Demand[Wodzisław Śląski],33678.4018255781,0.0,119.0,Demand
+Demand[Wrocław],44098.15361898362,0.0,133.0,Demand
+Demand[Zielona Góra],65069.15796049674,0.0,121.0,Demand
+Demand[Łódź],56492.44946838853,0.0,317.0,Demand
+Lodz_limit[Kielce],-35213.667553160485,0.0,126.80000000000001,Lodz_limit
+Lodz_limit[Opole],0.0,63.400000000000034,126.80000000000001,Lodz_limit
+Lodz_limit[Warszawa],-39939.50411114168,0.0,126.80000000000001,Lodz_limit
+Station_capacity[Kielce],-663.2537871397435,0.0,1200.0,Station_capacity
+Station_capacity[Opole],-28833.81609650987,0.0,400.0,Station_capacity
+Station_capacity[Warszawa],0.0,69.00000000000006,800.0,Station_capacity
